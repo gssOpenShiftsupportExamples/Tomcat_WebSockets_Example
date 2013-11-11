@@ -1,4 +1,3 @@
-Tomcat_WebSockets_Example
-=========================
+The OpenShift `jbossews` cartridge documentation can be found at:
 
-Example Tomcat 7 (EWS 2.0) Web Sockets Example. 
+https://github.com/openshift/origin-server/tree/master/cartridges/openshift-origin-cartridge-jbossews/README.md
