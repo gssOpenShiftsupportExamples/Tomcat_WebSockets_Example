@@ -107,11 +107,6 @@
         <load-on-startup>1</load-on-startup>
     </servlet>
 
-    <servlet>
-        <servlet-name>chat</servlet-name>
-        <servlet-class>src.main.java.ChatWebSocketServlet</servlet-class>
-    </servlet>
-
   <!-- The JSP page compiler and execution servlet, which is the mechanism  -->
   <!-- used by Tomcat to support JSP pages.  Traditionally, this servlet    -->
   <!-- is mapped to the URL pattern "*.jsp".  This servlet supports the     -->
@@ -363,10 +358,6 @@
     <servlet-mapping>
         <servlet-name>default</servlet-name>
         <url-pattern>/</url-pattern>
-    </servlet-mapping>
-    <servlet-mapping>
-        <servlet-name>chat</servlet-name>
-        <url-pattern>/chat</url-pattern>
     </servlet-mapping>
 
     <!-- The mappings for the JSP servlet -->
